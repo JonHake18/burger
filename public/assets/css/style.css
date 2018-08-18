@@ -1,27 +1,29 @@
-body {
-    font-family: 'Germania One', cursive;
+html {
+    height: 100%;
     width: 100%;
-    background-image: url('../img/Burger%20background.jpg');
+}
+body {
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    background-image: url('../images/burgerBackground.jpg');
+    background-size: 100% 100%;
 }
 
 h1 {
     margin: auto 0;
-    margin-left: 20%;
-    margin-bottom: 3%;
-    margin-top: 2%;
+    margin-left: 25%;
+    margin-bottom: 4%;
+    margin-top: 3%;
 }
 
 #avail {
     float: left;
-    margin-right: 6%;
-    margin-left: 10%;
-
-
+    margin-right: 5%;
+    margin-left: 12%;
 }
 
 #devoured {
     float: left;
-
 }
 
 li {
@@ -32,5 +34,9 @@ li {
 
 #add {
     clear: both;
-    margin-left: 25%;
+    margin-left: 30%;
+}
+
+.container{
+    margin-right: 35%;
 }
